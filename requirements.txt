@@ -1,0 +1,5 @@
+pytrends
+google-genai
+instagrapi
+python-dotenv
+Pillow
