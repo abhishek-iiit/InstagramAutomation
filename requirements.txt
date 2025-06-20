@@ -1,5 +1,6 @@
-pytrends
 google-genai
+google-generativeai
 instagrapi
-python-dotenv
 Pillow
+requests
+dotenv
