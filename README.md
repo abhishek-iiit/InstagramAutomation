@@ -38,16 +38,17 @@ The bot follows a simple, powerful workflow:
 ## 📁 Project Structure
 
 trend_to_gram/
-├── main.py # Main orchestration script (entry point)
-├── config.py # Handles configuration, API keys, and paths
-├── trend_discoverer.py # Module for fetching trends
-├── content_generator.py # Module for AI content generation (text/image)
-├── instagram_uploader.py # Module for Instagram uploads
-├── generated_images/ # Directory for saving generated images
-│ └── .gitkeep
-├── trends.csv # CSV file containing topics for content generation
-├── .env # For storing secret keys
-└── requirements.txt # Project dependencies
+├── main.py # Main orchestration script (entry point)<br>
+├── config.py # Handles configuration, API keys, and paths<br>
+├── SERVICES/<br>
+├     └── trend_discoverer.py # Module for fetching trends<br>
+├     └── content_generator.py # Module for AI content generation (text/image)<br>
+├     └── instagram_uploader.py # Module for Instagram uploads<br>
+├── CONSTANTS/<br>
+├     └── generated_images/ # Directory for saving generated images<br>
+├     └── trends.csv # CSV file containing topics for content generation<br>
+├── .env # For storing secret keys<br>
+└── requirements.txt # Project dependencies<br>
 
 ## ⚙️ Setup and Installation
 
